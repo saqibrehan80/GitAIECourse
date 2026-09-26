@@ -1,0 +1,56 @@
+Srehan@IN01-NBK-579 MINGW64 ~
+$ git --version
+git version 2.55.0.windows.5
+
+Srehan@IN01-NBK-579 MINGW64 ~
+$ ls
+'0. AI Engineer Course'/                                                                    IntelGraphicsProfiles/                                                                         PrintHood@
+'1. 100 Day Code Challenge'/                                                                Links/                                                                                         PycharmProjects/
+'3D Objects'/                                                                              'Local Settings'@                                                                               Recent@
+ AppData/                                                                                   Microsoft/                                                                                    'Saved Games'/
+'Application Data'@                                                                         Music/                                                                                         Searches/
+ Contacts/                                                                                 'My Documents'@                                                                                 SendTo@
+ Cookies@                                                                                   NTUSER.DAT                                                                                    'Start Menu'@
+'Creative Cloud Files (archived) (1)'/                                                      NTUSER.DAT{2ad838bc-efea-11ee-a54d-000d3a94eaa1}.TM.blf                                        Templates@
+'Creative Cloud Files Personal Account srehan@live.com 9F6954E85059B4140A490D45@AdobeID'/   NTUSER.DAT{2ad838bc-efea-11ee-a54d-000d3a94eaa1}.TMContainer00000000000000000001.regtrans-ms   Tracing/
+ CrossDevice/                                                                               NTUSER.DAT{2ad838bc-efea-11ee-a54d-000d3a94eaa1}.TMContainer00000000000000000002.regtrans-ms   Videos/
+ Documents/                                                                                 NetHood@                                                                                       ntuser.dat.LOG1
+ Downloads/                                                                                 OneDrive/                                                                                      ntuser.dat.LOG2
+ Favorites/                                                                                 Pictures/                                                                                      ntuser.ini
+
+Srehan@IN01-NBK-579 MINGW64 ~
+$ ^C
+
+Srehan@IN01-NBK-579 MINGW64 ~
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+Srehan@IN01-NBK-579 MINGW64 ~
+$ git config --global user.name saqibrehan80
+
+Srehan@IN01-NBK-579 MINGW64 ~
+$ ^C
+
+Srehan@IN01-NBK-579 MINGW64 ~
+$ git config --global user.name "saqibrehan80"
+
+Srehan@IN01-NBK-579 MINGW64 ~
+$ git config --global user.email "saqib.rehan80@gmail.com"
+
+Srehan@IN01-NBK-579 MINGW64 ~
+$ git config --global --list
+user.name=saqibrehan80
+user.email=saqib.rehan80@gmail.com
+
+Srehan@IN01-NBK-579 MINGW64 ~
+$ cd C:\Users\Saqib Rehan\GitAIE
+bash: cd: too many arguments
+
+Srehan@IN01-NBK-579 MINGW64 ~
+$ cd GitAIE
+
+Srehan@IN01-NBK-579 MINGW64 ~/GitAIE
+$ git init
+Initialized empty Git repository in C:/Users/Saqib Rehan/GitAIE/.git/
+
+Srehan@IN01-NBK-579 MINGW64 ~/GitAIE (master)
